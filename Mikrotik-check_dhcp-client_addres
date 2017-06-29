@@ -1,4 +1,3 @@
-#Sprawdzanie, czy urządzenie otrzymało adres w dhcp-client ap id: 845
 
 :local u "bound"
 :if ($u != [/ip dhcp-client get value-name=status number=0]) do= {
