@@ -1,0 +1,4 @@
+#Sprawdzanie połączenie z internetem ap id:845
+:if ([/ping 8.8.8.8 count=5] = 0) do={
+    blink duration=10s   
+} 
